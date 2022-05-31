@@ -1,0 +1,15 @@
+Interface is basically a complete abstract class. 
+That means Interface only have deceleration of method not their implementation. 
+So if we don’t have any implementation of a method then that means if we create object of that interface and call that method it compile nothing as there is no code to compile.
+To overcome this, firstly we have to create class that implements that interface means that class is implementing the methods of that interface. Now when you create object of this class it gives u the permission to access all methods of interface with their implementation in the class.
+
+To overcome this, firstly we have to create class that implements that interface means that class is implementing the methods of that interface. Now when you create object of this class it gives u the permission to access all methods of interface with their implementation in the class.
+
+Compares this String to another String, ignoring caseconsiderations. 
+Two strings are considered equal ignoring case if theyare of the same length and corresponding Unicode code points in the twostrings are equal ignoring case. 
+Two Unicode code points are considered the sameignoring case if at least one of the following is true: 
+• The two Unicode code points are the same (as compared by the == operator) 
+• Calling Character.toLowerCase(Character.toUpperCase(int))on each Unicode code point produces the same result 
+
+Note that this method does not take locale into account, andwill result in unsatisfactory results for certain locales. The java.text.Collator class provides locale-sensitive comparison.
+Parameters:anotherString The String to compare this String againstReturns:true if the argument is not null and itrepresents an equivalent String ignoring case; false otherwiseSee Also:equals(Object)codePoints()

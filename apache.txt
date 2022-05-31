@@ -1,0 +1,3 @@
+Poor Obfuscation Implementation - POI
+
+is an API that offers a collection of Java libraries that helps us to read, write, and manipulate different Microsoft files such as excel sheets, power-point, and word files.

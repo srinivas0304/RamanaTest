@@ -1,0 +1,11 @@
+ExtentReport is a third party library that is designed for producing the reports for the automated tests, i.e it is not default library that will come with automated tool.
+
+--> You have to download and setup the library explicitly.
+
+--> This extent report available only for java and dotNet languages.
+
+--> Extentreport is not 100%  opensource tool
+1. community version 2. professional (licsenced)
+
+--> 
+

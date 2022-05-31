@@ -1,0 +1,8 @@
+Switch statement perfoms the equality check between the output of expression, and the case values.
+
+According to the syntax, the output of expression should not be boolean, float or double values.
+
+If a particular case value, is equal to the expression output then the case block completely executes and remaining all the below
+blocks gets executed.
+
+

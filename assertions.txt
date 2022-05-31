@@ -1,0 +1,34 @@
+By testing something we need validate.
+
+Assertion is an expression which will verify the actual test outcome with the expected testoutcome.
+
+Assertions are mandatory.
+
+Assert is a static class, so we can call methods in it directly
+
+assertEquals
+assertNotEquals
+assertTrue
+assertFalse
+assertNull
+assertNotNull
+
+Assert.assertEquals(actualTitle, expectedTitle);
+
+Assertions are two types:
+
+1) Hard Assertion                                     2) Soft Assertion
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+1) Hard Assertion: 
+
+--> Hard assertion is an assertion which throws the exeception immediately upon failure of assertion.
+
+--> After assertions method control will not move to the next line. 
+
+--> What ever we use from Assert class by default all are the Hard Assert. Means Assert.assertEquals() after this line what ever the will be next line it will not execute.
+
+--> If the assertEquals throws an exception at the same line and statements written after the assertions will not be executed.
+
+
+2) Soft assertion:
+

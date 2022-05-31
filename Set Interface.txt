@@ -1,0 +1,50 @@
+Set 
+1) HashSet
+2) LinkedHashSet
+3) TreeSet
+
+above 3 are the classes of Set
+
+List------------------------------------------------------------------------------------------------Set
+
+It maintains order					it does'n follow insertion order
+
+We can store duplicates values				No
+
+By using indexing we can remove or insert 		No(No index position)
+
+HashSet:
+
+--> HashSet is a Set interface implementation class
+
+--> By using Set interface we cannot create Objects so, with the help of implementation class we can create objects.
+
+--> We can store group of objects and single values
+
+--> HashSet is a nonsynchronised, where it is not thread safe.
+
+--> With the help of HashTable and creates Hashcode
+
+--> When we perform search options we go for HashSet
+
+--> Based on the HashTable the values will be printed 
+
+
+HashSet							LinkedHashSet					TreeSet
+
+--> It does't insertion order 					--> It follows insertion order				It will Sort and prints in ascending order
+							--> HashTable+DoublyLinkedList															--> from doublylinkedlist we store the values in hashtable
+							--> DLL used for insertion order
+
+
+
+
+
+
+
+
+
+
+
+
+	

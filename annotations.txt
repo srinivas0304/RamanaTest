@@ -1,0 +1,15 @@
+TestNG annotations:
+
+--> Annotations concept is introduced in java. Even before TestNG born the annotations concept is there.
+
+--> So, TestNG uses these annotations and it has released some annotations.
+
+->> Annotation is a form of metadata that can be added to the java source code.
+
+java file:
+
+--> package, class, varibales , methods, parameters these all are combined called as Java source code.
+
+--> Annotations were introduced in java 1.5 version(jdk 5)
+
+@override -- text is the annotation name and @ is denotes this is a annotation

@@ -1,0 +1,8 @@
+Test rail is a pure test management tool for QA and development team
+
+why do people use TestRail?
+
+Need somewhere to manage all their testing activities
+
+
+

@@ -1,0 +1,49 @@
+
+An unwanted / unexpected event that disturbs the normal flow of the program, is called exception.
+
+purpose: It is the highly recommend to handle exceptions.
+
+--> We should not miss anything or we should not lose anything 
+
+Customized Exception Handling by try catch:
+
+Length of the code inside try block is less as possible.
+
+methods:
+
+1) e.printStackTrace()
+2) e.toString()
+3) e.getMessage();
+
+Throwable class contains above mentioned methods.
+
+--> e.printStackTrace(): name of exception and description of exception and followed stack trace
+
+	Name of Exception: Description stack trace
+
+name: java.lang.ArithmeticException: 
+
+
+Description: / by zero
+
+
+at tryCatch.Test.main(Test.java:12)
+
+2) toString():
+name: java.lang.ArithmeticException: 
+
+Description: / by zero
+
+3) getMessage(): if you want only description
+
+Description: / by zero
+
+--> default exception hanlder always use printStackTrace()
+
+
+
+try with multiple catch blocks:
+
+
+
+

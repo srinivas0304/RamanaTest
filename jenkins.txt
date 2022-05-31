@@ -1,0 +1,22 @@
+
+
+java -jar drag and drop from downloads folder
+
+
+if 8080 port is occupied then 
+
+--httpPort=8084(whatever port is empty)
+
+
+java -jar C:\Users\addla\Downloads\jenkins.war
+
+CI: continuous integration means adding code.
+
+CD: continuous delivery/deployment--> continuously code is integrated delivery or deployment
+
+CI/CD means it is not a tool as it is a methodology/framework which was used to develop SDLC(software development life cycle)
+
+Pipeline: Step by step execution of a process (it follows FIFO: First in First out)
+
+continuous integration is both continuous building and testing
+

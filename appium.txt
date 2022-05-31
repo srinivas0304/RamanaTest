@@ -1,0 +1,5 @@
+Appium is used for mobile automation, it could be native, web or hybrid app
+
+C:\Users\addla\AppData\Local\Android\Sdk\emulator
+
+emulator -avd Srinivas_AVD  				(<virtual device name>)

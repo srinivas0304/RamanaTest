@@ -1,0 +1,12 @@
+Every method present in the StringBuffer is syncronised
+
+The threads are required to execute one by one, it increases waiting time of thread and performance going down
+
+Only one thread is allowed to operate on the StringBuffer object
+
+
+for multi threaded environment we dont recommend StringBuffer
+
+In order to overcome this problem we use StringBuilder from 1.5 version
+
+Non synchronised version of StringBuffer is StringBuilder

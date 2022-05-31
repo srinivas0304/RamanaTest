@@ -1,0 +1,1 @@
+mvn test -Dtest="Chrome_Browser"    		--> if you want to run single test

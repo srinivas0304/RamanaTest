@@ -1,0 +1,8 @@
+different names:   Log4j -- logvulnerability - - CVE2021-44228
+
+Log4J: It is a library in the Apache
+
+
+JNDI: Java Naming and Directory Interface 
+
+LDAP: Light weight directory access protocal. it is server 

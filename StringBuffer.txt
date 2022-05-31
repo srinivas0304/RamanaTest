@@ -1,0 +1,46 @@
+Where we not reommend to use String concept
+So, in those type of situations we use StringBuffer.
+
+If the content is fixed and it will not change in the future then will use String concept
+
+If the content is keeps on changing then we go for StringBuffer.
+
+In String: For each change/modification each and every time it will create an object for, so thats reason String is immutable
+
+In StringBuffer: In this all the required changes/modifications will performed in the existing object only and StringBuffer is called muttable
+
+
+Important constructors of StringBuffer: 
+
+1) StringBuffer sb=new StringBuffer();//It reserves room for 16 characters without reallocation
+
+2) StringBuffer sb1=new StringBuffer(int size); //explicitly sets the size of the buffer. 
+
+3)StringBuffer sb2=new StringBuffer(String str); // It accepts a string argument that sets the initial contents of the StringBuffer object and reserves room for 16 more characters without reallocation.
+
+
+important terms:
+
+length: the number of characters contains a String  ex: Srinivas(length: 8)
+
+capacity: is the total how many characters this object will store.
+
+StringBuffer sb=new StringBuffer(16): is the deafult value where we can store 16 characters.
+
+if the stringbuffer is full in the case of collections what will happen, new object will created and S will point to 17th charater.
+
+default initial capacity: 16
+
+     StringBuffer sb=new StringBuffer();
+		
+    int s=sb.capacity();
+		
+     System.out.println(s);
+
+new capacity=(currentcapacity+1)*2)
+	      = (16+1)*2=34
+
+next new capacity =(cc+1)*2
+	               =(34+1)*2=70
+
+

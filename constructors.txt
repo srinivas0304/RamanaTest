@@ -1,0 +1,26 @@
+Constructors: Constructor is a special type of method in java, which gets executed each and every time, whenever the object is created.
+
+purpose: The main purpose of constructor is to initialize class varibales
+
+It is good practice to write constructors after the class.
+
+Ex: public class Student
+{
+	public Student()
+	{
+	          Sopln("Defaulf constructor");
+	}
+}
+
+
+
+this --> is a keyword which is used to refer current object which is under execution
+--> used when we are initilize class variables.
+
+--> Java convention says to use the constructor to initialise the non static properties during the object creattion itself.
+
+--> Because, if we allow the user (user logic) to initialise the property after the object creation there is always the possibilities of forget to initialise the non static properties.
+
+--> And the functions/methods do not works properly and developer do not get either compile time error nor runtime problem (exception).
+
+--> By using the constructor if developer forgets to initialise the properties then the automatically developers get complie time error.
